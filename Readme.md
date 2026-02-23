@@ -6,3 +6,5 @@
 
 - This ML project includes the concepts like Python, NumPy, Pandas, Scikit-learn, Flask, HTML, CSS, JavaScript.
 
+- The Frontend Interface of the model looks like -->
+
