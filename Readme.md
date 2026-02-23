@@ -8,3 +8,12 @@
 
 - The Frontend Interface of the model looks like -->
 
+![image alt](https://github.com/amansingh3037/Mumbai_House_price_prediction/blob/master/Screenshot%20(435).png?raw=true)
+
+After data filled 
+
+![image alt](https://github.com/amansingh3037/Mumbai_House_price_prediction/blob/master/Screenshot%20(436).png?raw=true)
+
+After Predict Button clicks, the predicted price shows up !!
+
+![image alt](https://github.com/amansingh3037/Mumbai_House_price_prediction/blob/master/Screenshot%20(437).png?raw=true)
