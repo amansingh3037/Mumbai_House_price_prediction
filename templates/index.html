@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mumbai House Price Prediction</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+</head>
+<body>
+
+<div class="container">
+    <h1>Mumbai House Price Prediction</h1>
+
+    <div class="main-section">
+
+        
+        <div class="form-grid">
+
+            <div>
+                <label>Longitude</label>
+                <input type="number" id="longitude" placeholder="Longitude">
+            </div>
+            <div>
+                <label>Latitude</label>
+                <input type="number" id="latitude" placeholder="Latitude">
+            </div>
+            <div>
+                <label>Housing Median Age</label>
+                <input type="number" id="housing_median_age" placeholder="Housing Median Age">
+            </div>
+            <div>
+                <label>Total Rooms</label>
+                <input type="number" id="total_rooms" placeholder="Total Rooms">
+            </div>
+            <div>
+                <label>Total Bedrooms</label>
+                <input type="number" id="total_bedrooms" placeholder="Total Bedrooms">
+            </div>
+            <div>
+                <label>Population</label>
+                <input type="number" id="population" placeholder="Population">
+            </div>
+            <div>
+                <label>Households</label>
+                <input type="number" id="households" placeholder="Households">
+            </div>
+            <div>
+                <label>Median Income</label>
+                <input type="number" step="any" id="median_income" placeholder="Median Income">
+            </div>
+            <div>
+                <label>Ocean Proximity</label>
+                <input type="text" id="ocean_proximity" placeholder="Ocean Proximity">
+            </div>
+
+        </div>
+
+        
+        <div class="prediction-section">
+
+            <div>
+                <label>Expected Prediction</label>
+                <input type="text" id="expected_prediction" readonly>
+            </div>
+
+            <div>
+                <label>Actual Prediction</label>
+                <input type="text" id="actual_prediction" readonly>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="button-group">
+        <button class="get-btn" onclick="getData()">Get Data</button>
+        <button class="predict-btn" onclick="predict()">Predict</button>
+    </div>
+
+</div>
+
+<script src="{{url_for('static', filename='script.js')}}"></script>
+</body>
+</html>
